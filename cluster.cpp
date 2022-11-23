@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-vector<vector<int>> cluster(const vector<int> input) {
+vector<vector<int>> cluster(const vector<int>& input) {
     vector<vector<int>> cluster_res;
     if (input.size() <=1 ) {
         cluster_res.push_back(input);
